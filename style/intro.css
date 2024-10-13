@@ -1,0 +1,52 @@
+.intro {
+    height: 130vh;
+    max-width: 100vw;
+    background: rgba(0, 0, 0, 0.5) url('./images/dish1.jpg') no-repeat center center / cover;
+    overflow: hidden;
+    font-size: 100px;
+    position: relative;
+}
+
+.i-text {
+    align-self: center;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    color: white;
+    position: absolute;
+    background: transparent;
+    font-family: Chelsea Market;
+    font-weight: 600;
+    text-shadow: 4px 4px 0px rgb(108, 0, 0);
+}
+
+.i-text p {
+    background: transparent;
+
+}
+
+
+.extro {
+    margin-top: 70px;
+    height: 90vh;
+    max-width: 100vw;
+    background: url('./images/image.png') no-repeat center center / cover;
+
+    overflow: hidden;
+    font-size: 80px;
+    position: relative;
+}
+
+.e-text {
+    margin-top: 100px;
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: Chelsea Market;
+    font-weight: 600;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    background: transparent;
+}
+
+.e-text p {
+    background: transparent;
+}

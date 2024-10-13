@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #C1D5C4; */
+    background-color: #F3CB88;
+    /* background-color: #0b100b; */
+}
+
+.book-button {
+    width: 167px;
+    height: 54px;
+    background-color: #8aba5b;
+    color: #241B15;
+    border-radius: 20px 5px;
+    font-size: 17px;
+    position: relative;
+    z-index: 1;
+    font-family: David Libre;
+    border: 0px;
+    font-weight: 600;
+}
+
+.menu-button {
+    width: 120px;
+    height: 54px;
+    background-color: #101A24;
+    color: white;
+    border-radius: 20px 5px;
+    font-size: 17px;
+    position: relative;
+    z-index: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.light-text {
+    font-size: 20px;
+    font-family: Inter;
+    color: #241B15;
+    background: none;
+}
+
+/* WORKING HOURS */
+.hours {
+    flex-direction: column;
+}
+
+.hours span {
+    width: 130px
+}
+
+.blur {
+    opacity: 15%;
+}

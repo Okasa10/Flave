@@ -1,0 +1,159 @@
+/* Container */
+.special {
+    margin: 80px 0px;
+    padding-top: 38px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+
+/* CHEF IMAGE */
+.s-chef img {
+    width: 640px;
+    height: 480px;
+    border-radius: 150px;
+}
+
+/* TEXT CONTAINER */
+.s-text {
+    width: 40%;
+    margin-right: 10px;
+}
+
+/* OUR EXPERTS LINE */
+.big {
+    font-size: 60px;
+    color: #241B15;
+    /* color: cornsilk; */
+    font-weight: bolder;
+    text-wrap: wrap;
+}
+
+.small {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    text-wrap: wrap;
+}
+
+/* SPECIALITIES LIST */
+
+
+/* BUTTONS */
+.s-buttons {
+    margin-top: 20px;
+    /* padding-left: 30px; */
+}
+
+/* specialities */
+
+.dishes {
+    color: darkolivegreen;
+    margin-bottom: 30px;
+}
+
+.dish {
+    height: 40vh;
+    background: beige;
+    color: darkolivegreen;
+}
+
+
+
+.text1 {
+    /* color: bisque; */
+    color: #241B15;
+}
+
+
+.dish p {
+    background: beige;
+    color: darkolivegreen;
+}
+
+
+
+
+/****************************MEDIA QUERY********************/
+@media only screen and (max-width:1200px) {
+
+    /* Container */
+    .special {
+        justify-content: end;
+    }
+
+
+    /* CHEF IMAGE */
+    .s-chef img {
+        width: 450px;
+        height: 600px;
+    }
+
+    /* TEXT CONTAINER */
+    .s-text {
+        position: relative;
+        z-index: 1;
+    }
+
+
+    /* SPECIALITIES LIST */
+    ul {
+        background: none;
+    }
+
+    ul li {
+        background: none;
+
+    }
+}
+
+@media only screen and (max-width:1000px) {
+
+    /* TEXT CONTAINER */
+    .s-text {
+        position: relative;
+        z-index: 0;
+    }
+
+    /* SPECIALITIES LIST */
+    .list {
+        flex-direction: column;
+
+    }
+
+    .list ul li {
+        width: 215px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:800px) {
+
+    /* Container */
+    .special {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* CHEF IMAGE */
+    .s-chef img {
+        height: 500px;
+        width: 400px;
+        margin-top: 50px;
+        position: relative;
+        right: 0px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    /* CHEF IMAGE */
+    .s-chef img {
+        height: 400px;
+        width: 300px;
+    }
+}

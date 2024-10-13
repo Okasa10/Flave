@@ -1,0 +1,167 @@
+/* Entire Dishes container */
+.dishes {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+    /* color: beige; */
+    color: #241B15;
+
+}
+
+
+
+/* TWO HEADERS  */
+.text1 {
+    margin-bottom: 50px;
+    width: 100%;
+    grid-column: 1/span 5;
+    text-align: center;
+    font-size: 65px;
+}
+
+.text1 img {
+    position: relative;
+    top: 125px;
+    left: 30px;
+}
+
+.text2 {
+    width: 100%;
+    grid-column: 1/span 5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* DISH DIV STYLING */
+.dish {
+    border: 2px solid #ffffff;
+    justify-content: space-evenly;
+    width: 280px;
+    height: 500px;
+    border-radius: 20px;
+    /* color: rgba(245, 245, 245, 0.83); */
+    color: #241B15;
+
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(113, 113, 113, 0.573), 0 4px 20px 0 rgba(113, 113, 113, 0.573);
+}
+
+/* DISH IMAGE STYLING  */
+.dish img {
+    width: 280px;
+    height: 245px;
+    margin: 25px auto;
+}
+
+/* DISH NAME */
+.dish p {
+    margin: 20px 0px auto;
+    font-size: 26px;
+    /* color: rgb(245, 222, 179); */
+    color: #241B15;
+
+}
+
+/************************ MEDIA QUERIES ******************************/
+@media only screen and (max-width:1100px) {
+
+    /* Entire Dishes container */
+    .dishes {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+
+    }
+
+    /* TWO HEADERS  */
+    .text1 {
+        font-size: 65px;
+    }
+
+    /* DISH DIV STYLING */
+    .dish {
+        width: 240px;
+        height: 423px;
+    }
+
+    #dish1 {
+        grid-column: 1/span 2;
+        position: relative;
+        left: 50px;
+    }
+
+    #dish2 {
+        grid-column: 4/span 2;
+        position: relative;
+        right: 50px;
+    }
+
+    #dish3 {
+        grid-column: 1/span 2;
+        position: relative;
+        left: 50px;
+    }
+
+    #dish4 {
+        grid-column: 4/span 2;
+        position: relative;
+        right: 50px;
+    }
+}
+
+/************************ MEDIA QUERIES ******************************/
+
+@media only screen and (max-width:600px) {
+
+    /* Entire Dishes container */
+    .dishes {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+
+    }
+
+    /* TWO HEADERS  */
+    .text1 {
+        font-size: 40px;
+        width: 80%;
+        text-align: right;
+
+    }
+
+    .text1 img {
+        height: 130px;
+    }
+
+    .text2 pre {
+        width: 90%;
+    }
+
+    /* DISH DIV STYLING */
+    .dish {
+        width: 240px;
+        height: 423px;
+    }
+
+    #dish1 {
+        grid-column: 2/span 3;
+    }
+
+    #dish2 {
+        position: relative;
+        right: 75px;
+    }
+
+    #dish3 {
+        grid-column: 2/span 3;
+
+    }
+
+    #dish4 {
+        position: relative;
+        right: 75px;
+    }
+}

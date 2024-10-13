@@ -1,0 +1,116 @@
+.end {
+    height: 40%;
+    margin: 100px 0px;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* BLOCK CONTAINING (restaurant,opening hours) */
+.end-resto {
+    flex-direction: column;
+    margin-right: 100px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+
+/* LOGO */
+.end-des p img {
+    position: relative;
+    top: 5px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+/* THE LINE RESTAURANT */
+.end-des p {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+
+}
+
+/* RESTAURANT DESCRIPTION   */
+.end-des {
+    width: 500px;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+/* THE LINE "OPENING HOURS"  */
+.end-resto p {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    /* color: whitesmoke; */
+    color: #241B15;
+    font-family: Ga Maamli;
+}
+
+/* HOURS */
+.hours {
+    flex-direction: row;
+}
+
+.hours pre {
+    margin: 20px 35px 20px 0px;
+}
+
+/* NAVIGATION DISHES AND FOLLOW */
+.end-navdish,
+.end-follow p {
+    font-family: Inter;
+    font-size: 25px;
+    margin: 35px 20px 0px;
+    /* color: beige; */
+    color: #241B15;
+}
+
+
+.end-navdish ul li {
+    list-style: none;
+    margin: 23px 0px;
+}
+
+/* FOLLOW IMAGES */
+.end-follow img {
+    margin: 30px 20px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+
+/*****************MEDIA QUERIES***************/
+@media only screen and (max-width:800px) {
+    .end {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* THE LINE "OPENING HOURS"  */
+    .end-resto {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    /* THE LINE "OPENING HOURS"  */
+    .end-resto p {
+        text-align: center;
+    }
+
+    /* HOURS */
+    .hours {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .hours pre {
+        margin: 20px 0px 20px 0px;
+    }
+}
